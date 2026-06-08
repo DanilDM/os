@@ -3,13 +3,12 @@
 Виконання:
 
 ```bash
-dan ~ $ chmod +x tempsrcipt.sh 
-dan ~ $ ./tem
-bash: ./tem: No such file or directory
-dan ~ $ ./tempsrcipt.sh 
+dan ~ $ touch backup.sh
+dan ~ $ chmod +x backup.sh 
+dan ~ $ ./backup.sh 
 Usage: ./backup.sh <log_dir> <backup_dir>
 dan ~ $ mkdir logs backup
-dan ~ $ ./tempsrcipt.sh ./logs/ ./backup/
+dan ~ $ ./backup.sh ./logs/ ./backup/
 Backup created: ./backup/logs_backup_2026-06-02_17-59.tar.gz
 ```
 
